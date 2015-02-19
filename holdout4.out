@@ -1,0 +1,61 @@
+[JGAP][09:06:50] INFO GPGenotype - Creating initial population
+[JGAP][09:06:50] INFO GPGenotype - Mem free: 240.6 MB
+[JGAP][09:06:50] INFO GPPopulation - Prototype program set
+[JGAP][09:06:51] INFO GPGenotype - Mem free after creating population: 240.6 MB
+[JGAP][09:06:51] INFO GPGenotype - Your configuration does not contain unused commands, this is good
+[JGAP][09:06:51] INFO GPGenotype - Evolving generation 0, memory free: 238.3 MB
+[JGAP][15:09:20] INFO GPGenotype - Best solution fitness: 0.60
+[JGAP][15:09:20] INFO GPGenotype - Best solution: JCD * CEDD_cat5
+[JGAP][15:09:20] INFO GPGenotype - Depth of chrom: 1
+[JGAP][06:39:57] INFO GPGenotype - Best solution fitness: 0.61
+[JGAP][06:39:57] INFO GPGenotype - Best solution: log ((CLD_cat20 + PHOG_min) / (CLD_max - (JCD * CEDD_cat5)))
+[JGAP][06:39:57] INFO GPGenotype - Depth of chrom: 4
+[JGAP][12:50:43] INFO GPGenotype - Best solution fitness: 0.62
+[JGAP][12:50:43] INFO GPGenotype - Best solution: (CEDD_cat5 - (max((PHOG_text5 - JCD_text20), (max(CLD, CEDD_text1))))) + (((JCD_cat20 * (JCD * CEDD_cat5)) + (min(CLD_max, PHOG_text5))) + ((JCD * CEDD_cat5) * (JCD * CEDD_cat5)))
+[JGAP][12:50:43] INFO GPGenotype - Depth of chrom: 5
+[JGAP][15:56:03] INFO GPGenotype - Best solution fitness: 0.62
+[JGAP][15:56:03] INFO GPGenotype - Best solution: (CEDD_cat5 - (max((PHOG_text5 - JCD_text20), (JCD * CEDD_cat5)))) + (((JCD_cat20 * (JCD * CEDD_cat5)) + (min(CLD_max, PHOG_text5))) + ((JCD * CEDD_cat5) * (JCD * CEDD_cat5)))
+[JGAP][15:56:03] INFO GPGenotype - Depth of chrom: 5
+[JGAP][07:27:56] INFO GPGenotype - Best solution fitness: 0.63
+[JGAP][07:27:56] INFO GPGenotype - Best solution: (min((JCD * CEDD_cat5), (JCD * (sqrt JCD_cat10)))) * CEDD_cat5
+[JGAP][07:27:56] INFO GPGenotype - Depth of chrom: 4
+[JGAP][13:40:58] INFO GPGenotype - Best solution fitness: 0.64
+[JGAP][13:40:58] INFO GPGenotype - Best solution: (min(JCD, (JCD * (sqrt JCD_cat10)))) * CEDD_cat5
+[JGAP][13:40:58] INFO GPGenotype - Depth of chrom: 4
+[JGAP][02:06:20] INFO GPGenotype - Best solution fitness: 0.64
+[JGAP][02:06:20] INFO GPGenotype - Best solution: ((((JCD_cat20 * ((PHOG_text5 - JCD_text20) + (((CLD_cat1 * JCD_cat1) + (min(CLD_max, PHOG_text5))) + (JCD * CEDD_cat5)))) + (min(CLD_max, PHOG_text5))) + (log JCD)) + (min(CLD_max, PHOG_text5))) + (JCD * CEDD_cat5)
+[JGAP][02:06:20] INFO GPGenotype - Depth of chrom: 9
+[JGAP][14:35:28] INFO GPGenotype - Best solution fitness: 0.65
+[JGAP][14:35:28] INFO GPGenotype - Best solution: ((((JCD_cat20 * ((PHOG_text5 - JCD_text20) + (((CLD_cat1 * JCD_cat1) + (min(CLD_max, PHOG_text5))) + (JCD * CEDD_cat5)))) + (min(CLD_max, PHOG_text5))) + (log JCD)) + (min(CLD_max, PHOG_text5))) + (JCD * (JCD_cat20 * (JCD * CEDD_cat5)))
+[JGAP][14:35:28] INFO GPGenotype - Depth of chrom: 9
+[JGAP][17:32:22] INFO GPGenotype - Evolving generation 25, memory free: 7.4 MB
+[JGAP][23:34:14] INFO GPGenotype - Best solution fitness: 0.65
+[JGAP][23:34:14] INFO GPGenotype - Best solution: (max(CLD, CEDD_text1)) + (((JCD + (max((JCD * CEDD_cat5), ((CLD_cat1 * JCD_cat1) + (JCD * CEDD_cat5))))) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][23:34:14] INFO GPGenotype - Depth of chrom: 7
+[JGAP][01:21:46] INFO GPGenotype - Best solution fitness: 0.66
+[JGAP][01:21:46] INFO GPGenotype - Best solution: (JCD * CEDD_cat5) + ((((JCD_cat20 * (CLD_cat1 * JCD_cat1)) + (max((JCD * CEDD_cat5), (max(CLD, CEDD_text1))))) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][01:21:46] INFO GPGenotype - Depth of chrom: 6
+[JGAP][06:47:11] INFO GPGenotype - Best solution fitness: 0.66
+[JGAP][06:47:11] INFO GPGenotype - Best solution: (max(CLD, CEDD_text1)) + (((JCD + (max(((((CLD_cat1 * JCD_cat1) + (JCD * CEDD_cat5)) + (JCD * (JCD * CEDD_cat5))) + (min(CLD_max, PHOG_text5))), ((JCD * CEDD_cat5) * JCD_cat20)))) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][06:47:11] INFO GPGenotype - Depth of chrom: 9
+[JGAP][08:34:49] INFO GPGenotype - Best solution fitness: 0.66
+[JGAP][08:34:49] INFO GPGenotype - Best solution: (max((PHOG_text5 - JCD_text20), ((JCD * CEDD_cat5) + PHOG_text5))) + ((((JCD_cat20 * (CLD_cat1 * JCD_cat1)) + (max((JCD * CEDD_cat5), (max(CLD, CEDD_text1))))) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][08:34:49] INFO GPGenotype - Depth of chrom: 6
+[JGAP][10:06:40] INFO GPGenotype - Best solution fitness: 0.67
+[JGAP][10:06:40] INFO GPGenotype - Best solution: (JCD * CEDD_cat5) + ((((((PHOG_text5 - JCD_text20) * (JCD * CEDD_cat5)) + ((((JCD_cat20 * (JCD * CEDD_cat5)) + (max((max((CLD_cat1 * JCD_cat1), (JCD + (PHOG_text5 - JCD_text20)))), (max(CLD, CEDD_text1))))) + PHOG_cat1) + (JCD * CEDD_cat5))) + ((CLD_cat1 * JCD_cat1) + JCD)) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][10:06:40] INFO GPGenotype - Depth of chrom: 12
+[JGAP][11:40:36] INFO GPGenotype - Best solution fitness: 0.67
+[JGAP][11:40:36] INFO GPGenotype - Best solution: (JCD * CEDD_cat5) + (((((JCD_cat20 * (CLD_cat1 * JCD_cat1)) + ((((JCD_cat20 * (JCD * CEDD_cat5)) + (max((max((CLD_cat1 * JCD_cat1), (JCD + (PHOG_text5 - JCD_text20)))), (max(CLD, CEDD_text1))))) + PHOG_cat1) + (JCD * CEDD_cat5))) + ((CLD_cat1 * JCD_cat1) + JCD)) + PHOG_cat1) + (JCD * CEDD_cat5))
+[JGAP][11:40:36] INFO GPGenotype - Depth of chrom: 12
+[JGAP][18:22:55] INFO GPGenotype - Best solution fitness: 0.68
+[JGAP][18:22:55] INFO GPGenotype - Best solution: (JCD + (max(CLD, CEDD_text1))) + (((JCD + (JCD_cat20 * ((CLD_cat1 * JCD_cat1) + (JCD * CEDD_cat5)))) + PHOG_cat1) + (min(CLD_max, PHOG_text5)))
+[JGAP][18:22:55] INFO GPGenotype - Depth of chrom: 7
+[JGAP][18:22:55] INFO GPGenotype - Best solution fitness: 0.68
+[JGAP][18:22:55] INFO GPGenotype - Best solution: (JCD + (max(CLD, CEDD_text1))) + (((JCD + (JCD_cat20 * ((CLD_cat1 * JCD_cat1) + (JCD * CEDD_cat5)))) + PHOG_cat1) + (min(CLD_max, PHOG_text5)))
+[JGAP][18:22:55] INFO GPGenotype - Depth of chrom: 7
+:27] INFO GPGenotype - Best solution fitness: 0.85
+[JGAP][23:35:27] INFO GPGenotype - Best solution: ((FCTH_cat10 + JCD) + (min((sqrt CLD_cat20), ((min((min((ACC_cat1 * FCTH_cat10), (ACC_cat1 * FCTH_cat10))), (CEDD_text10 + JCD_cat20))) + JCD_cat20)))) + (min(((min((max(BIC_cat20, FCTH_text5)), (min((sqrt CLD_cat20), ((GCH_cat1 + FCTH_cat20) + JCD_cat20))))) + (CLD_cat1 + JCD)), JCD_cat20))
+[JGAP][23:35:27] INFO GPGenotype - Depth of chrom: 7
+[JGAP][19:21:06] INFO GPGenotype - Best solution fitness: 0.85
+[JGAP][19:21:06] INFO GPGenotype - Best solution: ((FCTH_cat10 + JCD) + (min((sqrt CLD_cat20), ((min((min((ACC_cat1 * FCTH_cat10), (ACC_cat1 * FCTH_cat10))), (CEDD_text10 + JCD_cat20))) + JCD_cat20)))) + (min(((min((max(BIC_cat20, FCTH_text5)), (min((sqrt CLD_cat20), ((GCH_cat1 + FCTH_cat20) + JCD_cat20))))) + (CLD_cat1 + JCD)), JCD_cat20))
+[JGAP][19:21:06] INFO GPGenotype - Depth of chrom: 7
